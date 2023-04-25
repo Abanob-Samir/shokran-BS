@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    
+}
+.filter img{
+    filter: grayscale(100);
+}
+.filter img:hover{
+    filter: grayscale(0);
+    scale: 1.5;
+    transition: all .5s;
+}
+.move:hover{
+    transform: translateY(-15px);
+    transition: all .5s;
+}
